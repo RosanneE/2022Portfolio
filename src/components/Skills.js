@@ -62,7 +62,7 @@ function RecoSwiper(props) {
         <figure>
           <img
             className="icon"
-            src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_django_icon_130645.png"
+            src={require("../Assets/djangoicon.png")}
             alt="Django"
           />
           <figcaption>Django</figcaption>

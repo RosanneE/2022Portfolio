@@ -6,20 +6,20 @@ function NavBar(props) {
     <div className="Nav">
 
       <Link className="navLink" to ='/'>
-        <div>Home</div>
+        <h3>Home</h3>
       </Link>
       <Link className="navLink" to ='/about'>
-        <div>About</div>
+        <h3>About</h3>
       </Link>
       <Link className="navLink" to ='/projects'>
-        <div>Projects</div>
+        <h3>Projects</h3>
       </Link>
       <Link className="navLink" to ='/resume'>
-        <div>Resume</div>
+        <h3>Resume</h3>
       </Link>
 
       {/* toggle between old school and modern (CSS and photos in about update) inner html changes to bring it back now y'all*/}
-      <button>Take it Old School</button>
+      {/* <button className="oldSchoolB">Go Old School</button> */}
 
     </div>
   );

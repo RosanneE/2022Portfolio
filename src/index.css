@@ -10,6 +10,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #d6ded4;
+  color: #2a3f36;
+}
+
+/* Home */
+.home{
+  padding: 0%;
+  margin: 0%;
+}
+.homeOne{
+  text-align: left;
+  font-size: 65px;
+  padding: 2%;
+  margin-bottom: 0%;
+
+}
+.homeTwo{
+  text-align: left;
+  font-size: 30px;
+  padding-left: 6%;
+  padding-bottom: 1%;
+  padding-top: 0%; 
+  /* padding: 2%; */
+  margin-top: 0%;
+}
+
+.home3 {
+  padding-left: 6%;
+  text-align: left;
+  padding-top: 0%;
+  padding-bottom: 3%;
 }
 
 /* RecoSwiper */
@@ -20,7 +51,7 @@ body {
 }
 
 .caroHeader{
-  
+
 }
 
 .recPic{
@@ -28,17 +59,20 @@ body {
 }
 
 .slider{
-  height: 400px;
   width: 400px;
   padding-bottom: 10px;
 }
 
 .sliderDiv {
   /* justify-content: space-around; */
+  
+  justify-content: space-between;
 }
 
-.swipeButtons {
-  justify-content: space-around;
+.swipeB {
+  display: inline-flex;
+  justify-content: space-between;
+
   /* justify-content: space-between; */
 }
 
@@ -69,6 +103,9 @@ figure {
 
 /* NavBar */
 .Nav {
+  color: #dfe5e8;
+  background-color: #00192d;
+  height: 50px;
   display: flex;
   justify-content: space-around;
   border: "3px solid black";
@@ -80,7 +117,34 @@ figure {
 .navLink {
   display:"inline-flex";
   
+  height: 10%;
+  
   /* flex-direction: row; */
+}
+.navLink h3{
+  color: #dfe5e8;
+  display:"inline-flex";
+  text-decoration: none;
+  height: 10%;
+  
+  /* flex-direction: row; */
+}
+
+.navLink h3:active{
+  text-decoration: none;
+}
+
+.navLink h3:hover{
+  color: #b46270;
+  text-decoration: none;
+  display:"inline-flex";
+  height: 10%;
+  
+  /* flex-direction: row; */
+}
+.oldSchoolB{
+  background-color: black;
+  color: #00ff00;
 }
 
 /* code {
