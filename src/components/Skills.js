@@ -1,7 +1,7 @@
 function RecoSwiper(props) {
   return (
     <div className="skillsList">
-      <h2>Skills</h2>
+      <h2 skillsHeader>Skills:</h2>
       <div className="figs">
         <figure>
           <img
