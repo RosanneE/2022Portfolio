@@ -1,23 +1,21 @@
-import React from 'react';
-import { Document, Page } from 'react-pdf';
-
+import React from "react";
+import MyPDF from "../Assets/RosanneAndersonResume.pdf";
+import ResSwiper from "../components/ResSwiper";
 function Resume(props) {
   return (
     <div>
       <h1>Resume</h1>
-      <a
-        href="RosanneAndersonResume.pdf"
-        download
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        Download
+      <div className="resLink">
+      <a href={MyPDF} download="My_File.pdf">
+        {" "}
+        Download{" "}
       </a>
-      <embed src="RosanneAndersonResume.pdf" width="500" height="375"></embed>
+      </div>
+      <div className="resSliderDiv">
+      <ResSwiper/>
+      </div>
     </div>
   );
 }
 
 export default Resume;
-
-

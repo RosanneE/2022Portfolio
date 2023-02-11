@@ -85,9 +85,7 @@ body {
   justify-content: center;
 }
 
-.caroHeader{
 
-}
 
 .recPic{
   height: 400px;
@@ -188,3 +186,22 @@ figure {
 } */
 
 
+/* Resume */
+.resPic{
+  width: 80%;
+}
+
+.resSlider{
+  width: 660px;
+  padding-bottom: 10px;
+}
+
+.resSliderDiv {
+  /* justify-content: space-around; */
+  
+  justify-content: center;
+}
+.resCarouselDiv{
+  display: flex;
+  justify-content: center;
+}

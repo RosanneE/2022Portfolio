@@ -5,12 +5,12 @@ function About(props) {
       <div className="aboutDiv">
       <div className="colOne">
           <p className="pAbout">
-          &emsp;&emsp;I am a Baltimore based Software Engineer. Currently working as a
-            Teaching Assistant at General Assembly's coding bootcamp, I enjoy
+          &emsp;&emsp;I am a Baltimore based Software Engineer, crrently working as a
+            Teaching Assistant at General Assembly's coding bootcamp. I enjoy
             helping students debug, reviewing difficult concepts with them, and
             teaching them how to google search even when your problem seems
             ungoogleable (have you tried to get information about 'this'
-            lately?).
+            lately?).  I'm currently working on a website for home bartenders (and if you want to hear me rant about how search bars should include the ability to exclude terms, just ask!).
           </p>
         </div>
         <div className="colTwo">
@@ -19,14 +19,15 @@ function About(props) {
         <div className="colOne">
           <p  className="pAbout">
           &emsp;&emsp;Having worked in various sectors before learning to
-            coding, I am a huge beliver that working with people from diverse
-            backgrounds, with differnnet lived experiences, creates novel
+            coding (Education, Human Resources, Marketing, Realty...), I am a huge beliver that working with people from diverse
+            backgrounds, with different lived experiences, creates novel
             solutions and change the way we look at problems. I am passionate
             about learning new things, whether it's a new framework, coding
-            language, instument or dance. As poet E. E. Cummings wrote "the
-            goal of living is to grow". I can't wait to see where this journey
-            takes me!
+            language, instument, craft, or dance. I love the fact that coding is an ever growing and innovating field, one in which I can spend the rest of my life learning new things.  
           </p>
+        </div>
+        <div className="colTwo">
+          <img className="aboutPic" src={require("../Assets/grow.png")} />
         </div>
       </div>
     </div>
