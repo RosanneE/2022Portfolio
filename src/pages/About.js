@@ -19,7 +19,7 @@ function About(props) {
         <div className="colOne">
           <p  className="pAbout">
           &emsp;&emsp;Having worked in various sectors before learning to
-            coding (Education, Human Resources, Marketing, Realty...), I am a huge beliver that working with people from diverse
+            coding (Education, Human Resources, Marketing, Realty, Bar Tending...), I am a huge beliver that working with people from diverse
             backgrounds, with different lived experiences, creates novel
             solutions and change the way we look at problems. I am passionate
             about learning new things, whether it's a new framework, coding
