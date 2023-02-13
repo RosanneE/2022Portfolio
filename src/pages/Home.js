@@ -1,4 +1,4 @@
-import RecoSwiper from "../components/RecoSwiper";
+import RecoSwiper from "../components/Carosels/RecoSwiper";
 import Skills from '../components/Skills'
 
 function Home(props) {
