@@ -22,7 +22,7 @@ function RecoSwiper(props) {
           <div className="sliderDiv">
             <Slider className="slider">
               <Slide index={0} className = 'slide'>
-              <img className = 'recPic' src={require("../../Assets/Res3.png")} />
+              <img className = 'recPic' src={require("../../Assets/Rec3.png")} />
               {/* /Users/rosanne/Portfolio-Update-1.23/frontend/src/Assets/Res3.png */}
               </Slide>
               <Slide index={1} className = 'slide'>
