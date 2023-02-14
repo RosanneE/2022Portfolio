@@ -3,7 +3,7 @@ function About(props) {
     <div className="about">
       <h1>About</h1>
       <div className="aboutDiv">
-      <div className="colOne">
+      <div className="pOne">
           <p className="pAbout">
           &emsp;&emsp;I am a Baltimore based Software Engineer, crrently working as a
             Teaching Assistant at General Assembly's coding bootcamp. I enjoy
@@ -13,10 +13,10 @@ function About(props) {
             lately?).  I'm currently working on a website for home bartenders (and if you want to hear me rant about how search bars should include the ability to exclude terms, just ask!).
           </p>
         </div>
-        <div className="colTwo">
+        <div className="pTwo">
           <img className="aboutPic" src={require("../Assets/greenWall.jpeg")} />
         </div>
-        <div className="colOne">
+        <div className="pOne">
           <p  className="pAbout">
           &emsp;&emsp;Having worked in various sectors before learning to
             coding (Education, Human Resources, Marketing, Realty, Bar Tending...), I am a huge beliver that working with people from diverse

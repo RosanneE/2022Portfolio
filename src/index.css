@@ -12,6 +12,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #d6ded4;
   color: #2a3f36;
+  justify-content: center;
+  display: flex;
 }
 
 h1{
@@ -22,6 +24,11 @@ h1{
 
 .about{
   align-items: center;
+  padding-left: 0%;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .aboutDiv {
@@ -50,13 +57,19 @@ h1{
   width: 50%;
 }
 .pAbout{
-  font-size: 20px;
+  font-size: 25px;
 }
 
 /* Home */
 .home{
   padding: 0%;
   margin: 0%;
+  align-items: center;
+  padding-left: 0%;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 .homeOne{
   text-align: left;
@@ -225,39 +238,51 @@ button {
 
 /* Tabs */
 /* Tab CSS based on https://blog.logrocket.com/how-to-build-tab-component-react/ */
-.tabs {
-  width: 100vw;
-  /* height: 100vh; */
-  display: flex;
-  align-items: center;
+.projects{
+  
   justify-content: center;
-  overflow: hidden;
- }
- 
- .tabList{
+  text-align: center;
+  padding-left: 0%;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+App {
   width: 80%;
+  /* width: 100vw;
+  height: 100vh;
+  display: flex;
+  /* align-items: center; */
+  display: flex;
+  justify-content: center;
+  overflow: hidden; 
+ }
+
+ .tabList{
+  /* width: 80%;
   height: auto;
   min-height: 400px;
-  background: #053742;
+  background: #2a3f36;
   margin: 3.5rem auto 1.5rem;
   padding: 2rem 1rem;
   color: #E8F0F2;
-  border-radius: 2rem;
+  border-radius: 2rem; */
  }
  
  .react-tabs {
-  -webkit-tap-highlight-color: transparent;
+  /* -webkit-tap-highlight-color: transparent; */
 }
  
 .react-tabs__tab-list {
-  /* width: 60%; */
-  margin: 0 auto 2rem;
-  display: flex;
+ margin: 0 auto 2rem;
+   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid #39A2DB;
+  border: 1px solid #2a3f36;
   border-radius: 2rem;
-  padding-left: 0px;
+  padding-left: 0px; 
 }
  
 .react-tabs__tab {
@@ -266,20 +291,16 @@ button {
   list-style: none;
   text-align: center;
   cursor: pointer;
-  /* transition: all 0.7s; */
+  transition: all 0.7s;
 }
  
 .react-tabs__tab--selected {
-  background: #39A2DB;
-}
- 
-.react-tabs__tab--disabled {
-  color: GrayText;
-  cursor: default;
+  background: #2a3f36;
+  color: #E8F0F2;
 }
  
 .react-tabs__tab:hover {
-  background: rgba(50, 224, 196, 0.15);
+  background: #2a3f365c;
 }
  
 .react-tabs__tab:first-child {
@@ -293,12 +314,12 @@ button {
 }
  
 .react-tabs__tab-panel {
-  display: none;
+  /* display: none; */
 }
  
 .react-tabs__tab-panel--selected {
   display: block;
-  font-size: 2rem;
+  font-size: 25;
   text-align: center;
 }
  
