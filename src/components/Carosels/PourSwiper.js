@@ -14,7 +14,7 @@ function PourSwiper(props) {
       <div className="pourCarouselDiv">
         <CarouselProvider
           naturalSlideWidth={100}
-          naturalSlideHeight={100}
+          naturalSlideHeight={80}
           // isIntrinsicHeight = {false}
           totalSlides={5}
         >
@@ -37,9 +37,9 @@ function PourSwiper(props) {
                 </Slide>
             </Slider>
           </div>
-          <div className="swipeButtons">
-            <ButtonBack className="swipeB">Back</ButtonBack>
-            <ButtonNext className="swipeB">Next</ButtonNext>
+          <div className="pourSwipeButtons">
+            <ButtonBack className="pourSwipeB">Back</ButtonBack>
+            <ButtonNext className="pourSwipeB">Next</ButtonNext>
           </div>
         </CarouselProvider>
         </div>

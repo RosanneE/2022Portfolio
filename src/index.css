@@ -2,6 +2,10 @@
     light green: #d6ded4, dark green: #2a3f36, light blue:#dfe5e8, dark blue: #00192d, pink: #b46270
 */
 
+*{
+  outline: red;
+  outline-style: solid;
+}
 /* All */
 body {
   margin: 0;
@@ -74,14 +78,14 @@ h1{
 .homeOne{
   text-align: left;
   font-size: 65px;
-  padding: 2%;
+  /* padding: 2%; */
   margin-bottom: 0%;
 
 }
 .homeTwo{
   text-align: left;
   font-size: 30px;
-  padding-left: 6%;
+  /* padding-left: 6%; */
   padding-bottom: 1%;
   padding-top: 0%; 
   /* padding: 2%; */
@@ -89,7 +93,7 @@ h1{
 }
 
 .home3 {
-  padding-left: 6%;
+  /* padding-left: 6%; */
   text-align: left;
   padding-top: 0%;
   padding-bottom: 3%;
@@ -250,7 +254,7 @@ button {
 }
 
 App {
-  width: 80%;
+  width: 90%;
   /* width: 100vw;
   height: 100vh;
   display: flex;
@@ -276,10 +280,10 @@ App {
 }
  
 .react-tabs__tab-list {
- margin: 0 auto 2rem;
-   display: flex;
+  margin: 0 auto 2rem;
+  display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   border: 1px solid #2a3f36;
   border-radius: 2rem;
   padding-left: 0px; 
@@ -319,7 +323,25 @@ App {
  
 .react-tabs__tab-panel--selected {
   display: block;
-  font-size: 25;
-  text-align: center;
+  font-size: 25px;
+  text-align: left;
 }
  
+/* Tab Sliders */
+.pourPic{
+  width: 100%;
+}
+
+.pourSlider{
+  width: 100%;
+  justify-content: center;
+  /* padding-bottom: 10px; */
+}
+
+.pourSliderDiv {
+  justify-content: center;
+}
+
+.pourSwipeButtons{
+  text-align: center;
+}

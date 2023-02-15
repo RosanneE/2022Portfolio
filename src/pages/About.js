@@ -5,7 +5,7 @@ function About(props) {
       <div className="aboutDiv">
       <div className="pOne">
           <p className="pAbout">
-          &emsp;&emsp;I am a Baltimore based Software Engineer, crrently working as a
+          &emsp;&emsp;I'm Rosanne (she/her) a Baltimore based Software Engineer, crrently working as a
             Teaching Assistant at General Assembly's coding bootcamp. I enjoy
             helping students debug, reviewing difficult concepts with them, and
             teaching them how to google search even when your problem seems
