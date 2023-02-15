@@ -2,10 +2,10 @@
     light green: #d6ded4, dark green: #2a3f36, light blue:#dfe5e8, dark blue: #00192d, pink: #b46270
 */
 
-*{
+/* *{
   outline: red;
   outline-style: solid;
-}
+} */
 /* All */
 body {
   margin: 0;
@@ -41,6 +41,7 @@ h1{
   flex-wrap: wrap;
 }
 
+
 .colOne {
   width: 100%;
   padding-left: 0%;
@@ -58,10 +59,11 @@ h1{
 }
 
 .aboutPic{
-  width: 50%;
+  width: 80%;
 }
 .pAbout{
-  font-size: 25px;
+  font-size: 22px;
+  text-align: left;
 }
 
 /* Home */
@@ -284,8 +286,8 @@ App {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #2a3f36;
-  border-radius: 2rem;
+  /* border: 1px solid #2a3f36;
+  border-radius: 2rem; */
   padding-left: 0px; 
 }
  

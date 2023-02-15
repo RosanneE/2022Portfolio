@@ -22,14 +22,14 @@ function RecoSwiper(props) {
           <div className="sliderDiv">
             <Slider className="slider">
               <Slide index={0} className = 'slide'>
-              <img className = 'recPic' src={require("../../Assets/Rec3.png")} />
+              <img className = 'recPic' src={require("../../Assets/Rec2.png")} />
               {/* /Users/rosanne/Portfolio-Update-1.23/frontend/src/Assets/Res3.png */}
               </Slide>
               <Slide index={1} className = 'slide'>
-              <img className = 'recPic' src={require("../../Assets/Rec2.png")} />
+              <img className = 'recPic' src={require("../../Assets/Rec1.png")} />
               </Slide>
               <Slide index={2} className = 'slide'>
-                <img className = 'recPic' src={require("../../Assets/Rec1.png")} />
+                <img className = 'recPic' src={require("../../Assets/Rec3.png")} />
                 </Slide>
             </Slider>
           </div>
@@ -39,7 +39,7 @@ function RecoSwiper(props) {
           </div>
         </CarouselProvider>
         </div>
-            <h4>Additional / full recomendations available on request</h4>
+            <h4>Additional and full recomendations are available on request</h4>
     </div>
   );
 }
