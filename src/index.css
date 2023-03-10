@@ -255,6 +255,22 @@ button {
   padding-left: 5%;
 }
 
+.tabsLink{
+  font-size: 38px;
+  background-color: #b46270;
+  color: #d6ded4;
+  padding: 1.5%;
+  /* border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem; */
+}
+
+.tabsLink:hover{
+
+  background-color: #2a3f36;
+}
+
 App {
   width: 90%;
   /* width: 100vw;
@@ -347,3 +363,13 @@ App {
 .pourSwipeButtons{
   text-align: center;
 }
+
+/* Footer */
+.connectPic{
+  width: 3%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0%;
+  padding-bottom: 2%;
+}
+

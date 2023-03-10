@@ -16,9 +16,9 @@ function About(props) {
           &emsp;&emsp;Having worked in various sectors before learning to code (Education, Human Resources, Marketing, Realty, Bar Tending...), I am a huge believer that working with people from diverse  backgrounds, with different lived experiences, creates novel solutions and changes the way we look at problems. I am passionate about learning new things, whether it's a new framework, coding language, instrument, craft, or dance. I love the fact that coding is an ever growing and innovating field, one in which I can spend the rest of my life learning new things.  
           </p>
         </div>
-        <div className="colTwo">
+        {/* <div className="colTwo">
           <img className="aboutPic" src={require("../Assets/grow.png")} />
-        </div>
+        </div> */}
       </div>
     </div>
   );

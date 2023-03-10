@@ -13,7 +13,7 @@ import Resume from "./pages/Resume";
 
 function App() {
   //replace with heroku website before netlify deploy: https://rosanne-anderson-portfolio.herokuapp.com/
-  const URL = "http://localhost:4000/";
+  const URL = "http://rosanneanderson.com";
 
   return (
     <div className="App">
