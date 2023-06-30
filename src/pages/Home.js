@@ -23,30 +23,30 @@ function Home(props) {
 
       <div className="homeFoot">
         <div className="contactLink">
-        <a  className="homeFootLink"><Link to ='/contact'>
-        <h3>let's talk</h3>
-      </Link>
-      </a>
+          <a className="homeFootLink">
+            <Link to="/contact">
+              <h3>let's talk</h3>
+            </Link>
+          </a>
         </div>
-
-        <img
-          className="connectPic git"
-          src={require("../Assets/github.png")}
-          alt="image: flaticon.com, github logo"
-        />
-        <img
-          className="connectPic linkedin"
-          src={require("../Assets/linkedinLogo.png")}
-          alt="image: flaticon.com, linkedin logo"
-          href="https://www.linkedin.com/in/rosanne-anderson"
-        />
+        <a href="https://github.com/RosanneE">
+          <img
+            className="connectPic git"
+            src={require("../Assets/github.png")}
+            alt="image: flaticon.com, github logo"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/rosanne-anderson">
+          <img
+            className="connectPic linkedin"
+            src={require("../Assets/linkedinLogo.png")}
+            alt="image: flaticon.com, linkedin logo"
+          />
+        </a>
         <div className="resLink ">
- 
-            <a  className="homeFootLink" href={MyResume} download="My_File.pdf">
-              <h3>
-              resume</h3>
-            </a>
-
+          <a className="homeFootLink" href={MyResume} download="My_File.pdf">
+            <h3>resume</h3>
+          </a>
         </div>
       </div>
     </div>
