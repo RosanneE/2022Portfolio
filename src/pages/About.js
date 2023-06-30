@@ -1,3 +1,6 @@
+import RecoSwiper from "../components/Carosels/RecoSwiper";
+import Skills from "../components/Skills";
+
 function About(props) {
   return (
     <div className="about">
@@ -23,5 +26,9 @@ function About(props) {
     </div>
   );
 }
+
+
+      {/* <RecoSwiper/> */}
+      {/* <Skills/> */}
 
 export default About;

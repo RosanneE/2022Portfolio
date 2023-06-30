@@ -1,0 +1,375 @@
+/* colors:
+    light green: #d6ded4, dark green: #2a3f36, light blue:#dfe5e8, dark blue: #00192d, pink: #b46270
+*/
+
+/* *{
+  outline: red;
+  outline-style: solid;
+} */
+/* All */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #d6ded4;
+  color: #2a3f36;
+  justify-content: center;
+  display: flex;
+}
+
+h1{
+  margin-bottom: 10px;
+}
+
+/* About */
+
+.about{
+  align-items: center;
+  padding-left: 0%;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.aboutDiv {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+
+.colOne {
+  width: 100%;
+  padding-left: 0%;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align:justify;
+}
+.colTwo {
+  width: 60%;
+  margin-left:auto;
+  margin-right:auto;
+  display: bock;
+}
+
+.aboutPic{
+  width: 80%;
+}
+.pAbout{
+  font-size: 22px;
+  text-align: left;
+}
+
+/* Home */
+.home{
+  padding: 0%;
+  margin: 0%;
+  align-items: center;
+  padding-left: 0%;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.homeOne{
+  text-align: left;
+  font-size: 65px;
+  /* padding: 2%; */
+  margin-bottom: 0%;
+
+}
+.homeTwo{
+  text-align: left;
+  font-size: 30px;
+  /* padding-left: 6%; */
+  padding-bottom: 1%;
+  padding-top: 0%; 
+  /* padding: 2%; */
+  margin-top: 0%;
+}
+
+.home3 {
+  /* padding-left: 6%; */
+  text-align: left;
+  padding-top: 0%;
+  padding-bottom: 3%;
+}
+
+/* RecoSwiper */
+
+.carouselDiv{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.recPic{
+  height: 400px;
+}
+
+.slider{
+  width: 400px;
+  padding-bottom: 10px;
+}
+
+.sliderDiv {
+  /* justify-content: space-around; */
+  
+  justify-content: space-between;
+}
+
+.swipeB {
+  display: inline-flex;
+  justify-content: space-between;
+
+  /* justify-content: space-between; */
+}
+
+/* Header */
+
+.headerPic {
+  width: 100%
+}
+
+/* Skills */
+
+figure {
+  align-items: center;
+  text-align: center;
+}
+
+.figs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icon{
+  height: 50px;
+}
+
+/* NavBar */
+.Nav {
+  color: #dfe5e8;
+  background-color: #00192d;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  margin: 5px ;
+  line-height: 0px;
+
+}
+
+.navLink {
+  display:"inline-flex";
+
+}
+.navLink h3{
+  color: #dfe5e8;
+  display:"inline-flex";
+  text-decoration: none;
+}
+
+.navLink h3:active{
+  text-decoration: none;
+}
+
+.navLink h3:hover{
+  color: #b46270;
+  text-decoration: none;
+  display:"inline-flex";
+}
+.oldSchoolB{
+  background-color: black;
+  color: #00ff00;
+}
+
+/* Resume */
+.resPic{
+  width: 80%;
+}
+
+.resSlider{
+  width: 660px;
+  padding-bottom: 10px;
+}
+
+.resSliderDiv {
+  justify-content: center;
+}
+.resCarouselDiv{
+  display: flex;
+  justify-content: center;
+}
+
+.resLink{
+  margin:0px 0px 10px 0px
+}
+.downButton{
+  padding: 5px;
+}
+button {
+  background-color: #dfe5e8;
+  border-radius:  1rem;
+}
+ a{
+  color: #00192d;
+  font-size: 20px;
+  text-decoration: none;
+ }
+ a:hover{
+  color: #dfe5e8;
+ }
+
+ button:hover{
+  background-color: #b46270;
+ }
+
+/* Project */
+.projFive{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 0%;
+}
+
+/* Tabs */
+/* Tab CSS based on https://blog.logrocket.com/how-to-build-tab-component-react/ */
+.projects{
+  
+  justify-content: center;
+  text-align: center;
+  padding-left: 0%;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.tabsLink{
+  font-size: 38px;
+  background-color: #b46270;
+  color: #d6ded4;
+  padding: 1.5%;
+  /* border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem; */
+}
+
+.tabsLink:hover{
+
+  background-color: #2a3f36;
+}
+
+App {
+  width: 90%;
+  /* width: 100vw;
+  height: 100vh;
+  display: flex;
+  /* align-items: center; */
+  display: flex;
+  justify-content: center;
+  overflow: hidden; 
+ }
+
+ .tabList{
+  /* width: 80%;
+  height: auto;
+  min-height: 400px;
+  background: #2a3f36;
+  margin: 3.5rem auto 1.5rem;
+  padding: 2rem 1rem;
+  color: #E8F0F2;
+  border-radius: 2rem; */
+ }
+ 
+ .react-tabs {
+  /* -webkit-tap-highlight-color: transparent; */
+}
+ 
+.react-tabs__tab-list {
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid #2a3f36;
+  border-radius: 2rem; */
+  padding-left: 0px; 
+}
+ 
+.react-tabs__tab {
+  /* width: 50%; */
+  padding: 1rem;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+ 
+.react-tabs__tab--selected {
+  background: #2a3f36;
+  color: #E8F0F2;
+}
+ 
+.react-tabs__tab:hover {
+  background: #2a3f365c;
+}
+ 
+.react-tabs__tab:first-child {
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+ 
+.react-tabs__tab:last-child {
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+ 
+.react-tabs__tab-panel {
+  /* display: none; */
+}
+ 
+.react-tabs__tab-panel--selected {
+  display: block;
+  font-size: 25px;
+  text-align: left;
+}
+ 
+/* Tab Sliders */
+.pourPic{
+  width: 100%;
+}
+
+.pourSlider{
+  width: 100%;
+  justify-content: center;
+  /* padding-bottom: 10px; */
+}
+
+.pourSliderDiv {
+  justify-content: center;
+}
+
+.pourSwipeButtons{
+  text-align: center;
+}
+
+/* Footer */
+.connectPic{
+  width: 3%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0%;
+  padding-bottom: 2%;
+}
+

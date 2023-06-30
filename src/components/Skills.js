@@ -1,7 +1,7 @@
 function RecoSwiper(props) {
   return (
     <div className="skillsList">
-      <h2 skillsHeader>Skills:</h2>
+      {/* <h2 skillsHeader>Skills:</h2> */}
       <div className="figs">
         <figure>
           <img
@@ -94,7 +94,7 @@ function RecoSwiper(props) {
         <figure>
           <img
             className="icon"
-            src="https://brandeps.com/icon-download/F/Flask-icon-vector-06.svg"
+            src={require("../Assets/Flask.png")}
             alt="Flask"
           />
           <figcaption>Flask</figcaption>
