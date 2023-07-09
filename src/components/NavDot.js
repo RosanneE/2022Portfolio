@@ -5,7 +5,7 @@ function NavDot(props) {
     <div className="navDot">
       <button className="dotBtn">
         <img
-          className="connectPic menu"
+          className="menu"
           src={require("../Assets/menu.png")}
           alt="image: flaticon.com, menu icon"
         ></img>

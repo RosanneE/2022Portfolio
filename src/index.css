@@ -1,23 +1,53 @@
+/* 
+*{
+  border: 2px solid red;
+} */
 .body {
   display: flex;
 }
 .body #home {
   background-color: black;
 }
+
 .home {
   background-color: black;
   color: #33ff00;
   font-family: "Courier New", Courier, monospace;
-  
+  display: flex;
   /* padding: 5% 10%; */
 }
 .homeDiv{
-  align-items: center;
-  align-content: center;
-  align-self: center;
-  justify-content: center;
+  margin: 5% auto;
+  width: 50%;
+}
+.homeTxt{
+  padding: 0 0 2% 0;
 }
 
+.homeOne{
+  font-size: 60px;
+}
+
+.home3{
+  font-size: 23px;
+}
+
+.homeFoot{
+  display: flex;
+  justify-items: space-between;
+  align-items: center;
+}
+
+.homeFootLink{
+justify-content: space-around;
+align-items: center;
+  text-align: center;
+}
+
+.homeButton{
+  align-items: center;
+  justify-items: space-around;
+}
 .CharacterStats {
   padding: 5%;
   display: inline-flex;
@@ -105,6 +135,7 @@ li {
 
 .drops {
   display: none;
+  /* align-items: right; */
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
@@ -117,13 +148,7 @@ li {
 }
 
 .navDot{
- 
-  align-items: center;
-  display: grid;
-  place-items: center;
-  float:  center;
-  text-align: center;
-  
+  /* float:  right; */
 }
 
 .dotBtn {
@@ -138,17 +163,15 @@ li {
 }
 
 .menu{
-  height:50px;
-  align-items: center;
-  text-align: center;
+  width: 48px;
 
-  /* background-color: #33ff00; */
 }
 
 /* Footer */
-.git {
-  width: 4%;
+.connectPic{
+  width: 20%;
   border-radius: 50%;
+  margin: 0% 13%;
   /* padding-left: 1%;
   padding-right: 1%;
   padding-top: 0%;
@@ -156,23 +179,7 @@ li {
   background-color: #33ff00;
 }
 
-.linkedin {
-  width: 4%;
-  border-radius: 100%;
-  /* padding-left: 1%;
-  padding-right: 1%;
-  padding-top: 0%;
-  padding-bottom: 2%; */
-  background-color: #33ff00;
-}
 
-.homeButton {
-  outline-color: #33ff00;
-  outline-style: solid;
-  outline-width: 2px;
-  text-align: center;
-  height: 25px;
-}
 .homeCont {
   width: 120px;
 }
@@ -180,15 +187,21 @@ li {
 .homeRes {
   width: 80px;
 }
+.homeButton {
+  outline-color: #33ff00;
+  outline-style: solid;
+  outline-width: 2px;
+  text-align: center;
+  /* height: 25px; */
+  width: 550px;
+}
 
 .homeButton a {
   color: #33ff00;
-}
-.footer {
-  align-items: flex-end;
+  text-decoration: none;
 }
 
 .homeFoot {
-  /* display: inline; */
-  flex-direction: row;
+  display: flex;
+  justify-content: right;
 }
