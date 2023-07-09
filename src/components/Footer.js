@@ -3,7 +3,6 @@ function Footer(props) {
   return (
     <div className="footer">
 
-      
       <div className="inline">
       <button className="resumeButton"><a  classname = "resume" href={MyPDF} download="My_File.pdf">
         {" "}

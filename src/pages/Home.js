@@ -1,11 +1,14 @@
 import MyResume from "../Assets/RosanneAndersonResume.pdf";
 import NavDot from "../components/NavDot";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
+
 import contact from "./Contact";
 
 function Home(props) {
+  useEffect(()=> document.body.classList.add('home'))
   return (
-    <div className="home">
+    <div className="homeDiv">
       <NavDot />
 
       <h1 className="homeOne">const</h1>
@@ -22,7 +25,7 @@ function Home(props) {
       </h3>
 
       <div className="homeFoot">
-        <div className="contactLink">
+        <div className="homeButton homeCont" >
           <a className="homeFootLink">
             <Link to="/contact">
               <h3>let's talk</h3>
@@ -43,7 +46,7 @@ function Home(props) {
             alt="image: flaticon.com, linkedin logo"
           />
         </a>
-        <div className="resLink ">
+        <div className="homeButton homeRes">
           <a className="homeFootLink" href={MyResume} download="My_File.pdf">
             <h3>resume</h3>
           </a>
