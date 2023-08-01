@@ -164,6 +164,15 @@ li {
   font-size: x-large;
 }
 
+.botText{
+  font-size: 30px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
 /* home icons */
 .connectPic{
   width: 8%;
@@ -181,3 +190,4 @@ li {
 img{
   width: 10%;
 }
+

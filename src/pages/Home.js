@@ -26,7 +26,7 @@ function Home(props) {
       <div className="homeFoot">
       <div className="homeMenu homeRes homeBot">
           <a className="homeFootLink" href='mailto:anderson.rosanne4@gmail.com' download="My_File.pdf">
-            <h3>lets talk</h3>
+            <h3 className="botText">lets talk</h3>
           </a>
         </div>
         <div className="homeIcon">
@@ -47,7 +47,7 @@ function Home(props) {
         </div>
         <div className="homeMenu homeRes homeBot">
           <a className="homeFootLink" href={MyResume} download="My_File.pdf">
-            <h3>download resume</h3>
+            <h3 className="botText">download resume</h3>
           </a>
         </div>
       </div>
