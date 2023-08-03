@@ -1,10 +1,9 @@
-import Tabs from "../components/Tabs/Tabs";
+import Tabs from "../components/Projects/Tabs";
 
 function Portfolio(props) {
     return (
-    <div className="projects">
+    <div className="portfolio">
     <h1>Portfolio</h1>
-    <h5 className="projFive">*Due to changes in my hosting site (Heroku), I am in processes of updating and redeploying the below sites.  As they are updated, the site links will go live.</h5>
     <div className="tabs">
       <Tabs/>
     </div>

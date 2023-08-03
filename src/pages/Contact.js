@@ -1,4 +1,4 @@
-import Tabs from "../components/Tabs/Tabs";
+
 
 function Contact(props) {
     return (

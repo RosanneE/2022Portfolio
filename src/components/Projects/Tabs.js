@@ -1,8 +1,8 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Link } from "react-router-dom";
-import Hues from "./HuesTab";
-import Pour from "./PourTab";
-import RandD from "./RandDTab";
+import Hues from "./HuesCard.js";
+import Pour from "./PourCard";
+import RandD from "./RandDCard";
 
 function MyTabs() {
   return (

@@ -1,43 +1,43 @@
 @import url(https://fonts.googleapis.com/css?family=VT323);
 
-*{
+* {
   /* border: 2px solid red; */
-  align-items: center;
-  justify-content: center;
+  align-content: center;
+  margin: auto;
 }
 /* Main Pages/Elements */
 .body {
   display: flex;
   background-color: #339880;
+  align-items: center;
 }
 
-.title{
+.title {
   font-size: 80px;
   text-align: center;
 }
 
 /*about*/
 
-.aboutPage{
+.aboutPage {
   background-color: #339880;
   display: flex;
 }
-.about{
+.about {
   width: 50%;
   background-color: #339880;
-  
 }
 
-.picShell{
+.picShell {
   align-items: center;
 }
 
-.about{
- font-size: 20px;
- font-weight: bold;
+.about {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.aboutPic{
+.aboutPic {
   width: 40%;
   border-radius: 50%;
 }
@@ -46,37 +46,37 @@
 .home {
   background-color: black;
   color: #33ff00;
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
   display: flex;
   margin: 30px auto;
   justify-content: center;
 }
 
-.homeTxt{
+.homeTxt {
   padding: 0 0 2% 0;
 }
 
-.homeOne{
+.homeOne {
   font-size: 70px;
 }
 
-.home3{
+.home3 {
   font-size: 40px;
 }
 
-.homeFoot{
+.homeFoot {
   display: flex;
   justify-items: space-between;
   align-items: center;
 }
 
-.homeFootLink{
-justify-content: space-around;
-align-items: center;
+.homeFootLink {
+  justify-content: space-around;
+  align-items: center;
   text-align: center;
 }
 
-.homeButton{
+.homeButton {
   align-items: center;
   justify-items: space-around;
 }
@@ -144,42 +144,42 @@ li {
 }
 
 /* Home Nav */
-.nav{
+.nav {
   display: flex;
   justify-content: space-between;
 }
 
-.homeMenu{
+.homeMenu {
   background-color: #33ff00;
   width: 20%;
   justify-content: space-between;
-  border: 6px inset rgba(0,0,0,.5);
+  border: 6px inset rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
-.homeMenTxt{
-  font-family: 'VT323', monospace;
+.homeMenTxt {
+  font-family: "VT323", monospace;
   text-decoration: none;
   color: black;
   font-size: x-large;
 }
 
-.botText{
+.botText {
   font-size: 30px;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
 /* home icons */
-.connectPic{
+.connectPic {
   width: 8%;
   /* border-radius: 50%; */
   margin: 0% 20%;
   background-color: #33ff00;
-  border: 6px inset rgba(0,0,0,.5);
+  border: 6px inset rgba(0, 0, 0, 0.5);
 }
 
 .homeButton a {
@@ -187,7 +187,44 @@ a{
   text-decoration: none;
 }
 
-img{
+img {
   width: 10%;
 }
 
+/* Portfolio */
+.portfolio {
+  text-align: center;
+  width: 80%;
+}
+
+.card{
+  text-align:  left;
+  padding-left: 10%;
+}
+
+.card1{
+  padding-bottom: 20px;
+}
+
+.card3{
+  padding-bottom: 15px;
+}
+
+.cardImages{
+  padding-top: 20px;
+  display:flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  
+}
+
+.cardImg{
+  margin-bottom: 10px;
+  width: 45%;
+  border: solid;
+}
+
+.cardImg:hover {
+  transform: scale(1.5);
+  border: none;
+}
