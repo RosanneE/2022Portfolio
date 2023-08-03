@@ -181,7 +181,7 @@ img {
 /* Portfolio */
 
 .portfolioPage{
-  background-color: #6ED8A5;
+  background-color: #DFE5E8;
 }
 
 .portfolio {
@@ -190,18 +190,22 @@ img {
   width: 80%;
   background-color: #6ED8A5;
   border-radius: 15px;
-  border: 6px solid #0D3020;
+  border: 6px solid #12402B;
 }
 
 .card {
   text-align: left;
   padding-left: 5%;
   padding-right: 5%;
+  background-color: #DFE5E8;
+  color: #334147;
 }
 
 .card1 {
   text-align: left;
+  font-size: 40px;
   padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 .card3 {
@@ -218,39 +222,46 @@ img {
 .cardImg {
   margin-bottom: 10px;
   width: 45%;
-  border: solid;
+  border: solid #334147;
+
 }
 
 .cardImg:hover {
   transform: scale(1.5);
-  border: none;
+  /* border: none; */
 }
 
 /* Tabs  */
+
+
+
 .react-tabs__tab-list {
-  margin: 0 auto 2rem;
+  /* margin: 0 auto 2rem; */
   display: flex;
-  transition: all 0.7s;
-  border: 3px solid #0D3020;
+  /* justify-content: left; */
+  /* transition: all 0.7s; */
+  border: 3px solid #12402B;
+  /* background-image: linear-gradient(to right,  #6ED8A5, #0D3020); */
   
 }
 
 .react-tabs__tab {
   list-style: none;
-  cursor: pointer;
+  cursor:pointer;
   padding-top: 2%;
   padding-left: 5%;
-  border-right: 3px solid #0D3020;
+  border-right: 3px solid #12402B;
   border-top-right-radius: 40%;
-  /* margin:0% */
+  margin:0%
 }
 
 .react-tabs__tab:hover {
-  background: #ffb000;
-  color: #0D3020;
+  /* background-image: linear-gradient(to right,  #6ED8A5, #0D3020); */
+  color: #9EE5C3;
+  background-color: #0D3020;
 }
 
 .react-tabs__tab--selected {
-  background: #2a3f365c;
-  color: #ffb000;
+  background-color: #DFE5E8;
+  color: #334147;
 }

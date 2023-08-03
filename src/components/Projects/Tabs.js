@@ -6,7 +6,7 @@ import RandD from "./RandDCard";
 function MyTabs() {
   return (
     <div className="App">
-      <Tabs className="Tabs">
+      <Tabs className="tabs">
         <TabList>
           <Tab>Pour Choices</Tab>
           <Tab>Hues Adventure</Tab>
