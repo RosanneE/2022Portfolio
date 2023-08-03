@@ -231,6 +231,16 @@ img {
   /* border: none; */
 }
 
+.card1Link:hover {
+  color: #334147;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card1Link {
+  color: #718D98;
+}
+
 /* Tabs  */
 
 
