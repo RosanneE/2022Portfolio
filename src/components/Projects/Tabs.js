@@ -1,6 +1,5 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { Link } from "react-router-dom";
-import Hues from "./HuesCard.js";
+import Hues from "./HuesCard";
 import Pour from "./PourCard";
 import RandD from "./RandDCard";
 
@@ -14,13 +13,13 @@ function MyTabs() {
           <Tab>R&D Books</Tab>
         </TabList>
         <TabPanel>
-          <Pour/>
+          <Pour />
         </TabPanel>
         <TabPanel>
-          <Hues/>
+          <Hues />
         </TabPanel>
         <TabPanel>
-          <RandD/>
+          <RandD />
         </TabPanel>
       </Tabs>
     </div>

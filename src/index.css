@@ -8,7 +8,7 @@
 /* Main Pages/Elements */
 .body {
   display: flex;
-  background-color: #339880;
+  background-color: #6ED8A5;
   align-items: center;
 }
 
@@ -20,26 +20,40 @@
 /*about*/
 
 .aboutPage {
-  background-color: #339880;
-  display: flex;
+  background-color: #6ED8A5;
 }
+
+.aboutTxtShell {
+  justify-content: center;
+}
+
 .about {
   width: 50%;
-  background-color: #339880;
+  background-color: #AFB1D4;
 }
 
 .picShell {
-  align-items: center;
+  text-align: center;
 }
 
 .about {
   font-size: 20px;
-  font-weight: bold;
+  color: #2B2D50;
+  border: solid #2B2D50;
+  /* #2B2D50 5px; */
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10%;
+  /* font-weight: bold; */
 }
 
 .aboutPic {
   width: 40%;
-  border-radius: 50%;
+  border-radius: 20%;
+}
+
+.pAbout{
+  padding: 20px 0px;
 }
 
 /*home*/
@@ -107,33 +121,6 @@ li {
   width: 100%;
 }
 
-.react-tabs__tab-list {
-  margin: 0 auto 2rem;
-  display: flex;
-  transition: all 0.7s;
-  align-items: center;
-  justify-content: left;
-  border: 3px solid #33ff00;
-  padding: 10px;
-}
-
-.react-tabs__tab {
-  list-style: none;
-  text-align: center;
-  cursor: pointer;
-  border-left: #33ff00;
-  padding: 10px;
-}
-
-.react-tabs__tab:hover {
-  background: #ffb000;
-  color: black;
-}
-
-.react-tabs__tab--selected {
-  background: #2a3f365c;
-  color: #ffb000;
-}
 
 .resSliderDiv {
   width: 100%;
@@ -192,33 +179,43 @@ img {
 }
 
 /* Portfolio */
+
+.portfolioPage{
+  background-color: #6ED8A5;
+}
+
 .portfolio {
+  margin-top: 20px;
   text-align: center;
   width: 80%;
+  background-color: #6ED8A5;
+  border-radius: 15px;
+  border: 6px solid #0D3020;
 }
 
-.card{
-  text-align:  left;
-  padding-left: 10%;
+.card {
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-.card1{
+.card1 {
+  text-align: left;
   padding-bottom: 20px;
 }
 
-.card3{
+.card3 {
   padding-bottom: 15px;
 }
 
-.cardImages{
+.cardImages {
   padding-top: 20px;
-  display:flex;
+  display: flex;
   flex-flow: wrap;
   justify-content: space-between;
-  
 }
 
-.cardImg{
+.cardImg {
   margin-bottom: 10px;
   width: 45%;
   border: solid;
@@ -227,4 +224,33 @@ img {
 .cardImg:hover {
   transform: scale(1.5);
   border: none;
+}
+
+/* Tabs  */
+.react-tabs__tab-list {
+  margin: 0 auto 2rem;
+  display: flex;
+  transition: all 0.7s;
+  border: 3px solid #0D3020;
+  
+}
+
+.react-tabs__tab {
+  list-style: none;
+  cursor: pointer;
+  padding-top: 2%;
+  padding-left: 5%;
+  border-right: 3px solid #0D3020;
+  border-top-right-radius: 40%;
+  /* margin:0% */
+}
+
+.react-tabs__tab:hover {
+  background: #ffb000;
+  color: #0D3020;
+}
+
+.react-tabs__tab--selected {
+  background: #2a3f365c;
+  color: #ffb000;
 }
