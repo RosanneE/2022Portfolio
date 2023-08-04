@@ -15,26 +15,33 @@ function RecoSwiper(props) {
         <CarouselProvider
           naturalSlideWidth={100}
           naturalSlideHeight={100}
-          // isIntrinsicHeight = {false}
-          totalSlides={3}
+          // isIntrinsicHeight = {true}
+          totalSlides={5}
         >
-          <div className="resSliderDiv">
-            <Slider className="resSlider">
-              <Slide index={0} className = 'slide'>
-              <img className = 'resPic' src={require("../../Assets/Res1.png")} />
-              </Slide>
-              <Slide index={1} className = 'slide'>
-              <img className = 'resPic' src={require("../../Assets/Res2.png")} />
-              </Slide>
-              <Slide index={2} className = 'slide'>
-                <img className = 'resPic' src={require("../../Assets/Res3.png")} />
-                </Slide>
-            </Slider>
-          </div>
-          <div className="swipeButtons">
+                    <div className="swipeButtons">
             <ButtonBack className="swipeB">Back</ButtonBack>
             <ButtonNext className="swipeB">Next</ButtonNext>
           </div>
+          <div className="resSliderDiv">
+            <Slider className="resSlider">
+              <Slide index={0} className = 'slide'>
+              <img className = 'resPic' src={require("../../Assets/ResumeImg/1.jpg")} />
+              </Slide>
+              <Slide index={1} className = 'slide'>
+              <img className = 'resPic' src={require("../../Assets/ResumeImg/2.jpg")} />
+              </Slide>
+              <Slide index={2} className = 'slide'>
+                <img className = 'resPic' src={require("../../Assets/ResumeImg/3.jpg")} />
+                </Slide>
+                <Slide index={2} className = 'slide'>
+                <img className = 'resPic' src={require("../../Assets/ResumeImg/4.jpg")} />
+                </Slide>
+                <Slide index={2} className = 'slide'>
+                <img className = 'resPic' src={require("../../Assets/ResumeImg/5.jpg")} />
+                </Slide>
+            </Slider>
+          </div>
+
         </CarouselProvider>
         </div>
 
