@@ -15,21 +15,17 @@
 .title {
   font-size: 80px;
   text-align: center;
+  font-family: 'Times New Roman', Times, serif
 }
 
 /*about*/
 
 .aboutPage {
-  background-color: #6ED8A5;
+  background-color: white;
 }
 
 .aboutTxtShell {
   justify-content: center;
-}
-
-.about {
-  width: 50%;
-  background-color: #AFB1D4;
 }
 
 .picShell {
@@ -43,16 +39,20 @@
   /* #2B2D50 5px; */
   padding: 20px;
   margin-top: 20px;
-  border-radius: 10%;
+  border-radius: 3%;
   /* font-weight: bold; */
+  width: 80%;
+  background-color: #AFB1D4;
 }
 
 .aboutPic {
-  width: 40%;
+  width: 20%;
   border-radius: 20%;
 }
 
 .pAbout{
+  font-family:'Times New Roman', Times, serif;
+  width: 80%;
   padding: 20px 0px;
 }
 
@@ -61,9 +61,24 @@
   background-color: black;
   color: #33ff00;
   font-family: "VT323", monospace;
-  display: flex;
+  /* display: flex; */
   margin: 30px auto;
   justify-content: center;
+  align-items: center;
+}
+
+.homeDiv{
+  /* margin: auto; */
+  /* text-align: center; */
+  width: 75%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footDiv{
+  /* display: flex; */
+  justify-content: space-between;
+  text-align: center;
 }
 
 .homeTxt {
@@ -72,27 +87,30 @@
 
 .homeOne {
   font-size: 70px;
+  /* text-align: left; */
 }
 
 .home3 {
   font-size: 40px;
+  margin: 5%;
+  /* text-emphasis: left; */
 }
 
 .homeFoot {
   display: flex;
-  justify-items: space-between;
   align-items: center;
+
 }
 
 .homeFootLink {
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
   text-align: center;
 }
 
 .homeButton {
   align-items: center;
-  justify-items: space-around;
+  /* justify-items: space-around; */
 }
 
 .figs {
@@ -122,28 +140,31 @@ li {
 }
 
 
-.resSliderDiv {
-  width: 100%;
-}
-
-.resumeButton {
-  width: 50%;
-}
 
 /* Home Nav */
 .nav {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
 }
+
+
 
 .homeMenu {
   background-color: #33ff00;
-  width: 20%;
-  justify-content: space-between;
+  width:10%;
+  /* justify-content: space-between; */
   border: 6px inset rgba(0, 0, 0, 0.5);
+  margin: 5px;
   text-align: center;
 }
 
+.homeMenu:hover, .homeIcon:hover{
+  opacity: 70%;
+}
+
+/* .homeIcon{
+  margin: 5px;
+} */
 .homeMenTxt {
   font-family: "VT323", monospace;
   text-decoration: none;
@@ -159,14 +180,10 @@ a {
   text-decoration: none;
   color: black;
 }
-
-/* home icons */
+/* home nav icons */
 .connectPic {
-  width: 8%;
-  /* border-radius: 50%; */
-  margin: 0% 20%;
+  height: 3vmin;
   background-color: #33ff00;
-  border: 6px inset rgba(0, 0, 0, 0.5);
 }
 
 .homeButton a {
@@ -174,23 +191,23 @@ a {
   text-decoration: none;
 }
 
-img {
-  width: 10%;
-}
+
+
 
 /* Portfolio */
 
-.portfolioPage{
+/* .portfolioPage{
   background-color: #DFE5E8;
-}
+} */
 
 .portfolio {
+  font-family: 'Times New Roman', Times, serif;
   margin-top: 20px;
   text-align: center;
   width: 80%;
-  background-color: #6ED8A5;
-  border-radius: 15px;
-  border: 6px solid #12402B;
+  background-color: #DFE5E8;
+  border-radius: 3%;
+  border: 6px solid #334147;
 }
 
 .card {
@@ -272,6 +289,49 @@ img {
 }
 
 .react-tabs__tab--selected {
-  background-color: #DFE5E8;
-  color: #334147;
+  background-color: #334147;
+  color: #DFE5E8;
 }
+
+/* resume */
+
+.resume{
+width: 70%;
+border: solid 3px #12402B;
+/* #A2535F; */
+border-radius: 3%;
+margin-top: 20px;
+text-align: center;
+background-color: #6ED8A5;
+/* #EAD6D9; */
+color: #12402B;
+/* #A2535F; */
+}
+
+/* .resumePage{
+  background-color: pink;
+} */
+
+.resSliderDivk{
+  width: 80%;
+  align-items: center;
+  margin: auto;
+}
+
+.resumeButton {
+  width: 50%;
+}
+
+.resPic{
+  width: 70%
+}
+.downButton{
+  margin-bottom: 10px;
+}
+
+.swipeButtons{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
