@@ -15,12 +15,13 @@
 .title {
   font-size: 80px;
   text-align: center;
+  font-family: 'Times New Roman', Times, serif
 }
 
 /*about*/
 
 .aboutPage {
-  background-color: #6ED8A5;
+  background-color: white;
 }
 
 .aboutTxtShell {
@@ -40,16 +41,18 @@
   margin-top: 20px;
   border-radius: 3%;
   /* font-weight: bold; */
-  width: 50%;
+  width: 80%;
   background-color: #AFB1D4;
 }
 
 .aboutPic {
-  width: 40%;
+  width: 20%;
   border-radius: 20%;
 }
 
 .pAbout{
+  font-family:'Times New Roman', Times, serif;
+  width: 80%;
   padding: 20px 0px;
 }
 
@@ -73,6 +76,7 @@
 }
 
 .footDiv{
+  /* display: flex; */
   justify-content: space-between;
   text-align: center;
 }
@@ -192,17 +196,18 @@ a {
 
 /* Portfolio */
 
-.portfolioPage{
+/* .portfolioPage{
   background-color: #DFE5E8;
-}
+} */
 
 .portfolio {
+  font-family: 'Times New Roman', Times, serif;
   margin-top: 20px;
   text-align: center;
   width: 80%;
-  background-color: #6ED8A5;
+  background-color: #DFE5E8;
   border-radius: 3%;
-  border: 6px solid #12402B;
+  border: 6px solid #334147;
 }
 
 .card {
@@ -284,8 +289,8 @@ a {
 }
 
 .react-tabs__tab--selected {
-  background-color: #DFE5E8;
-  color: #334147;
+  background-color: #334147;
+  color: #DFE5E8;
 }
 
 /* resume */
