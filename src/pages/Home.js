@@ -23,7 +23,9 @@ function Home(props) {
           &#125;
         </h3>
       </div>
+      <div className="fotDiv">
       <HomeFooter />
+      </div>
     </div>
   );
 }
